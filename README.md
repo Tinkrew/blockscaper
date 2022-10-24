@@ -300,12 +300,14 @@ Move vertically a certain number of blocks.
 move the contents of your selection
    
 `move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z-> <replace: Block>`,
+
 `move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z->`,
+
 `move <offset: Position> <replace: Block>`,
 `move <offset: Position>`
    
 #### Flags
- `  
+
  `-s` 
 Shifts your selection to the target location.
    
