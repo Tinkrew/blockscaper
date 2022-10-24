@@ -1,8 +1,8 @@
 <h1 align="center">Blockscaper Add-on<br></h1>
 <h3 align="center">Professional building tools for Minecraft: Bedrock<br></h3>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/37005439/197578937-a5a24e63-1665-4ec9-ac6e-4ce076da5e36.png" width="256" alt="Blockscaper Tinkrew Logo"></img></p>
-   
+<p align="center"><img src="https://user-images.githubusercontent.com/37005439/197584478-619d3376-0bf4-466d-b891-dfe9783450c7.png" width="320" alt="Blockscaper Tinkrew Logo"></img></p>
+
 <h4 align="center">Developed by Ian Senne + Tinkrew<br></h4>
 
 <p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197581354-74c4a4f4-5b89-4aec-8e13-3e2a22180000.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a></p>
