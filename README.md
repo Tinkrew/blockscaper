@@ -1,36 +1,39 @@
-# Blockscaper Add-on
-![blockscaper banner test](https://user-images.githubusercontent.com/37005439/197578211-94382ace-c7fa-43ed-ae64-3eb1f888d22d.png)
+<h1 align="center">Blockscaper Add-on<br></h1>
+<h3 align="center">Professional building tools for Minecraft: Bedrock<br></h3>
 
-### Professional building tools for Minecraft: Bedrock
-Developed by Ian Senne + Tinkrew 
+<p align="center"><img src="https://user-images.githubusercontent.com/37005439/197578937-a5a24e63-1665-4ec9-ac6e-4ce076da5e36.png" width="256" alt="Blockscaper Tinkrew Logo"></img></p>
+   
+<h4 align="center">Developed by Ian Senne + Tinkrew<br></h4>
 
-# Quick Start Guide
+<p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197581354-74c4a4f4-5b89-4aec-8e13-3e2a22180000.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a></p>
+
+<h1 align="center">Quick Start Guide<br></h1>
 
 ## 1. Installation
 
-1. Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon)
+-  Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon)
 
-2. Install Blockscaper by opening the downloaded file using Minecraft
+-  Install Blockscaper by opening the downloaded file using Minecraft
 
 ## 2. Adding Blockscaper to your world
 
-1. Enable the `GameTest Framework` experimental feature
+-  Enable the `GameTest Framework` experimental feature
 
-   note: this may make a copy of your world if you have not enabled experimental features before
+   Note: this may make a copy of your world if you have not enabled experimental features before
    
-2. Activate the Blockscaper behavior pack
+-  Activate the Blockscaper behavior pack
 
-3. Opening the world should now greet you with a message letting you know Blockscaper is enabled
+-  Opening the world should now greet you with a message letting you know Blockscaper is enabled
 
 ## 3. In-game
 
-1. You can run `!items` in game to get all the Blockscaper items
+-  You can run `!items` in game to get all the Blockscaper items
 
-2. All commands in Blockscaper start with just one exclamation mark `!forexample`
+-  All commands in Blockscaper start with just one exclamation mark `!forexample`
 
-3. If you are familiar with Java World Edit the commands should be similar otherwise you can learn more about them below
+-  If you are familiar with Java World Edit, the commands should be similar otherwise you can learn more about them below
 
-# Command Library
+<h1 align="center">Command Library<br></h1>
 
 ## !debug
 No help information specified.
@@ -78,7 +81,7 @@ Fills your selection with a given input.
 
 #simplex(sx, sy, sz) <entries> - sx, sy, sz are numbers representing scales on thier respective axis.
 
-example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
+-  Example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
    
 #### Flags
    
@@ -119,13 +122,10 @@ Applies a mask to your currently equipped brush.
    
 #### Mask Format:
    
-!blocks   -> is not <blocks>
-   
-=blocks  -> is <blocks>
-   
-N>blocks -> N blocks above <blocks>
-   
-N<blocks -> N blocks below <blocks>
+-  !blocks   -> is not <blocks>  
+-  =blocks  -> is <blocks>
+-  N>blocks -> N blocks above <blocks>  
+-  N<blocks -> N blocks below <blocks>
 
 ## !gmask
 Applies a mask to everything.
@@ -137,13 +137,10 @@ Applies a mask to everything.
    
 #### Mask Format:
    
-!blocks   -> is not <blocks>
-   
-=blocks  -> is <blocks>
-   
-N>blocks -> N blocks above <blocks>
-   
-N<blocks -> N blocks below <blocks>
+-  !blocks   -> is not <blocks>
+-  =blocks  -> is <blocks>
+-  N>blocks -> N blocks above <blocks>
+-  N<blocks -> N blocks below <blocks>
 
 ## !br
 Assign a brush to the currently selected item.
