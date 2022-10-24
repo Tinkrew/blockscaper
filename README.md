@@ -1,5 +1,6 @@
 # Blockscaper Add-on
-![128x_blockscaper_icon](https://user-images.githubusercontent.com/37005439/197562481-5c9c0634-0215-4f1a-b73d-b1dc9c06176f.png) ![Tinkrewlogox128](https://user-images.githubusercontent.com/37005439/197562798-b6fffc45-02d8-460d-bb58-5898c923912a.png)
+![blockscaper banner test](https://user-images.githubusercontent.com/37005439/197578211-94382ace-c7fa-43ed-ae64-3eb1f888d22d.png)
+
 ### Professional building tools for Minecraft: Bedrock
 Developed by Ian Senne + Tinkrew 
 
@@ -7,7 +8,7 @@ Developed by Ian Senne + Tinkrew
 
 ## 1. Installation
 
-1. Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/download/0.0.1/Blockscaper_Example_File.mcaddon)
+1. Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon)
 
 2. Install Blockscaper by opening the downloaded file using Minecraft
 
