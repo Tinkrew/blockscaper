@@ -5,7 +5,7 @@
 
 <h4 align="center">Developed by Ian Senne + Tinkrew<br></h4>
 
-<p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197581354-74c4a4f4-5b89-4aec-8e13-3e2a22180000.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a></p>
+<p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a></p>
 
 <h1 align="center">Quick Start Guide<br></h1>
 
