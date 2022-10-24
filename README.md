@@ -75,7 +75,7 @@ Fills your selection with a given input.
 ### Argument Information:
 
 #simplex(sx, sy, sz) <entries> - sx, sy, sz are numbers representing scales on thier respective axis.
-   
+
 example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
    
 ### Flags
