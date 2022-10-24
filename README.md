@@ -42,7 +42,7 @@ No help information specified.
 `docs-gen`
 
 # !items
-Get all the Blockscaper Items!
+Get all the Blockscaper items!
 
 `items`
 
