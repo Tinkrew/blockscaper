@@ -1,34 +1,35 @@
-<h1 align="center">Blockscaper Add-on<br></h1>
+<h1 align="center">Blockscaper Add-on</h1>
 
-<h3 align="center">Professional building tools for Minecraft: Bedrock<br></h3>
+<h3 align="center">Professional building tools for Minecraft: Bedrock</h3>
+<p align="center">One add-on. Any device. Multiplayer and singleplayer.<br>Production ready (with caution). Compatible with custom blocks.<br>And completely free.</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/37005439/197584478-619d3376-0bf4-466d-b891-dfe9783450c7.png" width="320" alt="Blockscaper Tinkrew Logo"></img></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/37005439/197636783-97724f70-8f63-4c19-aefb-ce59d149a6b3.png" width="640" alt="Blockscaper Tinkrew Logo"></img></p>
 
-<h4 align="center">Developed by Ian Senne + Tinkrew<br></h4>
+<p align="center">Developed by Ian Senne for Tinkrew</p>
 
 <p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a> or suggest a feature!</p><br>
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
-<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="200"></a></img></p>
-<h6 align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</h6>
+<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
+<p align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</p4>
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
 <h1 align="center">Quick Start Guide<br></h1>
 
-## 1. Installation
+<h3>1. Installation</h3>
 
 -  Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon)
 -  Install Blockscaper by opening the downloaded file using [Minecraft](https://minecraft.net/)
 
-## 2. Adding Blockscaper to your world
+<h3>2. Adding Blockscaper to your world</h3>
 
 -  Enable the `GameTest Framework` experimental feature <br>   <i>Note: this may make a copy of your world if you have not enabled experimental features before</i>
 -  Activate the Blockscaper behavior pack
 -  Opening the world should now greet you with a message letting you know Blockscaper is enabled
 
-## 3. In-game
+<h3>3. In-game</h3>
 
 -  You can run `!items` in game to get all the Blockscaper items
 -  All commands in Blockscaper start with just one exclamation mark `!forexample`
@@ -38,48 +39,61 @@
 
 <h1 align="center">Index</h1>
 
-[items](https://github.com/Tinkrew/blockscaper#items)<br>
-[undo](https://github.com/Tinkrew/blockscaper#undo)<br>
-[pos1](https://github.com/Tinkrew/blockscaper#pos1)<br>
-[pos2](https://github.com/Tinkrew/blockscaper#pos2)<br>
-[set](https://github.com/Tinkrew/blockscaper#set)<br>
-[blockinfo](https://github.com/Tinkrew/blockscaper#blockinfo)<br>
-[replace](https://github.com/Tinkrew/blockscaper#replace)<br>
-[wand](https://github.com/Tinkrew/blockscaper#wand)<br>
-[mask](https://github.com/Tinkrew/blockscaper#mask)<br>
-[gmask](https://github.com/Tinkrew/blockscaper#gmask)<br>
-[br](https://github.com/Tinkrew/blockscaper#br)<br>
-[queue](https://github.com/Tinkrew/blockscaper#queue)<br>
-[history](https://github.com/Tinkrew/blockscaper#history)<br>
-[copy](https://github.com/Tinkrew/blockscaper#copy)<br>
-[paste](https://github.com/Tinkrew/blockscaper#paste)<br>
-[help](https://github.com/Tinkrew/blockscaper#help)<br>
-[sphere](https://github.com/Tinkrew/blockscaper#sphere)<br>
-[cyl](https://github.com/Tinkrew/blockscaper#cyl)<br>
-[pyramid](https://github.com/Tinkrew/blockscaper#pyramid)<br>
-[cut](https://github.com/Tinkrew/blockscaper#cut)<br>
-[stack](https://github.com/Tinkrew/blockscaper#stack)<br>
-[asc](https://github.com/Tinkrew/blockscaper#asc)<br>
-[desc](https://github.com/Tinkrew/blockscaper#desc)<br>
-[up](https://github.com/Tinkrew/blockscaper#up)<br>
-[move](https://github.com/Tinkrew/blockscaper#move)<br>
-[rotate](https://github.com/Tinkrew/blockscaper#rotate)<br>
-[fill](https://github.com/Tinkrew/blockscaper#fill)<br>
-[drain](https://github.com/Tinkrew/blockscaper#drain)<br>
-[fillr](https://github.com/Tinkrew/blockscaper#fillr)<br>
-[cancel](https://github.com/Tinkrew/blockscaper#cancel)<br>
-[tr](https://github.com/Tinkrew/blockscaper#tr)<br>
-[expand](https://github.com/Tinkrew/blockscaper#expand)<br>
-[walls](https://github.com/Tinkrew/blockscaper#walls)<br>
-[flip](https://github.com/Tinkrew/blockscaper#flip)<br>
-[shift](https://github.com/Tinkrew/blockscaper#shift)<br>
-[contract](https://github.com/Tinkrew/blockscaper#contract)<br>
-[thru](https://github.com/Tinkrew/blockscaper#thru)
+<table align="center">
+   <tr>
+      <td>items</td>
+      <td>undo</td>
+      <td>pos1</td>
+      <td>pos2</td>
+      <td>set</td>
+      <td>blockinfo</td>
+      <td>replace</td>
+      <td>wand</td>
+      <td>mask</td>
+      <td>gmask</td>
+   </tr>
+   <tr>
+      <td>br</td>
+      <td>queue</td>
+      <td>history</td>
+      <td>copy</td>
+      <td>paste</td>
+      <td>help</td>
+      <td>sphere</td>
+      <td>cyl</td>
+      <td>pyramid</td>
+      <td>cut</td>
+   </tr>
+   <tr>     
+      <td>stack</td>
+      <td>asc</td>
+      <td>desc</td>
+      <td>up</td>
+      <td>move</td>
+      <td>rotate</td>
+      <td>fill</td>
+      <td>drain</td>
+      <td>fillr</td>
+      <td>cancel</td>
+   </tr>
+   <tr>
+      <td>tr</td>
+      <td>expand</td>
+      <td>walls</td>
+      <td>flip</td>
+      <td>shift</td>
+      <td>contract</td>
+      <td>thru</td>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+</table>
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
 <h1 align="center">Command Library</h1>
-<h6 align="right">Last updated Oct 24, 2022</h6>
+<p align="center">Documentation updated Oct 24, 2022</p>
 
 ## !items
 Get all the Blockscaper items!
