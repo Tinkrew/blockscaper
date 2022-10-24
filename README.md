@@ -1,5 +1,7 @@
 <h1 align="center">Blockscaper Add-on<br></h1>
 
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="100"></img>
+
 <h3 align="center">Professional building tools for Minecraft: Bedrock<br></h3>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/37005439/197584478-619d3376-0bf4-466d-b891-dfe9783450c7.png" width="320" alt="Blockscaper Tinkrew Logo"></img></p>
@@ -8,7 +10,16 @@
 
 <p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a> or suggest a feature!</p><br>
 
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="100"></img>
+
+<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197626218-622a2f73-81c6-4073-a25d-81a09cbbfd25.png" width="200"></a></img></p>
+<h6 align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</h6>
+
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="100"></img>
+
 <h1 align="center">Quick Start Guide<br></h1>
+
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
 ## 1. Installation
 
@@ -17,7 +28,7 @@
 
 ## 2. Adding Blockscaper to your world
 
--  Enable the `GameTest Framework` experimental feature <br>   Note: this may make a copy of your world if you have not enabled experimental features before
+-  Enable the `GameTest Framework` experimental feature <br>   <i>Note: this may make a copy of your world if you have not enabled experimental features before</i>
 -  Activate the Blockscaper behavior pack
 -  Opening the world should now greet you with a message letting you know Blockscaper is enabled
 
@@ -27,7 +38,10 @@
 -  All commands in Blockscaper start with just one exclamation mark `!forexample`
 -  If you are familiar with Java World Edit, the commands should be similar otherwise you can learn more about them below
 
-<h1 align="center">Command Library<br></h1>
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
+
+<h1 align="center">Command Library</h1>
+<h6 align="right">Last updated Oct 24, 2022</h6>
 
 ## !items
 Get all the Blockscaper items!
@@ -53,8 +67,12 @@ Undoes your past actions.
 Fills your selection with a given input.
 
 `set <blocks: ExtendedBlock>`
-#### Argument Information:
-#simplex(sx, sy, sz) <entries> - sx, sy, sz are numbers representing scales on their respective axis. Example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
+#### Simplex Implementation:
+💡 `set #simplex(dx,dy,dz) <to: Block>`<br>Simplex patterns are enabled in this command. Create 3D noise with custom scaling and weights.
+
+`(dx,dy,dz)` → three dimensional scaling, there are no numerical limits but values typically range from 0 to 1<br><i>Example: (0.5,0.1,0.1)</i>
+
+`<to: Block>` → the pattern used in the simplex, you can use percentages to weight values.<br><i>Examples: 5%dirt,10%glass,5%granite</i>
 #### Flags:
 `-u` Marks this action as unsafe by not recording an undo.
 
