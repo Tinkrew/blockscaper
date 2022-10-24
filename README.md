@@ -1,9 +1,7 @@
-![128x_blockscaper_icon](https://user-images.githubusercontent.com/37005439/197562481-5c9c0634-0215-4f1a-b73d-b1dc9c06176f.png)![Tinkrewlogox128](https://user-images.githubusercontent.com/37005439/197562798-b6fffc45-02d8-460d-bb58-5898c923912a.png)
-# Blockscaper
-
-#### Professional building tools for Minecraft: Bedrock
-
-#### Developed by Ian Senne + Tinkrew 
+# Blockscaper Add-on
+![128x_blockscaper_icon](https://user-images.githubusercontent.com/37005439/197562481-5c9c0634-0215-4f1a-b73d-b1dc9c06176f.png) ![Tinkrewlogox128](https://user-images.githubusercontent.com/37005439/197562798-b6fffc45-02d8-460d-bb58-5898c923912a.png)
+### Professional building tools for Minecraft: Bedrock
+Developed by Ian Senne + Tinkrew 
 
 # Quick start guide
 
@@ -51,7 +49,7 @@ Get all the Blockscaper Items!
 # !undo
 Undoes your past actions.
 
-`undo`
+`undo`,
 `undo <count: Number>`
 
 # !pos1
@@ -59,7 +57,7 @@ Aliases: `p1`
 
 Sets the corresponding corner of your selection box.
 
-`pos1`
+`pos1`,
 `pos1 <position: Position>`
 
 # !pos2
@@ -67,7 +65,7 @@ Aliases: `p2`
 
 Sets the corresponding corner of your selection box.
 
-`pos2`
+`pos2`,
 `pos2 <position: Position>`
 
 # !set
@@ -83,7 +81,7 @@ example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
    
 ### Flags
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !blockinfo
@@ -96,12 +94,12 @@ Get information about a block, such as block states.
 # !replace
 Replace blocks in your selection.
    
-`replace <from: Block> <to: Block>`
+`replace <from: Block> <to: Block>`,
 `replace <to: Block>`
    
 ### Flags
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !wand
@@ -112,8 +110,8 @@ Get your very own wand!
 # !mask
 Applies a mask to your currently equipped brush.
    
-`mask clear`
-`mask add <mask: Mask>`
+`mask clear`,
+`mask add <mask: Mask>`,
 `mask remove <id: Number>`
    
 ### Argument Information:
@@ -131,7 +129,7 @@ N<blocks -> N blocks below <blocks>
 # !gmask
 Applies a mask to everything.
    
-`gmask`
+`gmask`,
 `gmask <mask: Mask>`
    
 ### Argument Information:
@@ -149,20 +147,20 @@ N<blocks -> N blocks below <blocks>
 # !br
 Assign a brush to the currently selected item.
    
-`br sphere <material: Block> <radius: Number>`
-`br cube <material: Block> <size: Number>`
-`br cyl <material: Block> <radius: Number> <height: Number>`
+`br sphere <material: Block> <radius: Number>`,
+`br cube <material: Block> <size: Number>`,
+`br cyl <material: Block> <radius: Number> <height: Number>`,
 `br paste`
    
 ### Flags
    
- `a` 
+ `-a` 
 Ignores air blocks.
    
- `h` 
+ `-h` 
 Makes a shape hollow.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !queue
@@ -182,7 +180,7 @@ Copies your selection to your clipboard.
    
 ### Flags
    
- `c` 
+ `-c` 
 Sets the origin of your clipboard to the center of the region, at the region's lowest y-level.
 
 # !paste
@@ -192,26 +190,26 @@ Pastes the contents of your clipboard into the world.
    
 ### Flags
    
- `a` 
+ `-a` 
 Ignores air blocks.
    
- `s` 
+ `-s` 
 Selects the region after pasting.
    
- `n` 
+ `-n` 
 Similar to the "-s" flag, but does not paste the clipboard's contents.
    
- `o` 
+ `-o` 
 Pastes at the origin of your clipboard.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !help
 Get help with commands.
    
-`help`
-`help <page: Number>`
+`help`,
+`help <page: Number>`,
 `help <command: String>`
 
 # !sphere
@@ -221,24 +219,24 @@ Makes a sphere in the world.
    
 ### Flags
    
- `h` 
+ `-h` 
 Makes a shape hollow.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !cyl
 Makes a cylinder in the world.
    
-`cyl <block: Block> <radius: Number>`
+`cyl <block: Block> <radius: Number>`,
 `cyl <block: Block> <radius: Number> <height: Number>`
    
 ### Flags
    
- `h` 
+ `-h` 
 Makes a shape hollow.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !pyramid
@@ -248,10 +246,10 @@ Makes a pyramid in the world.
    
 ### Flags
    
- `h` 
+ `-h` 
 Makes a shape hollow.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !cut
@@ -261,10 +259,10 @@ Cuts your selection to your clipboard, filling the selected region with air.
    
 ### Flags
    
- `c` 
+ `-c` 
 Sets the origin of your clipboard to the center of the region, at the region's lowest y-level.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !stack
@@ -274,13 +272,13 @@ Repeats your selection a number of times.
    
 ### Flags
    
- `s` 
+ `-s` 
 Shifts the selection to the last stacked copy.
    
- `a` 
+ `-a` 
 Ignores air blocks.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !asc
@@ -301,20 +299,20 @@ Move vertically a certain number of blocks.
 # !move
 move the contents of your selection
    
-`move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z-> <replace: Block>`
-`move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z->`
-`move <offset: Position> <replace: Block>`
+`move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z-> <replace: Block>`,
+`move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z->`,
+`move <offset: Position> <replace: Block>`,
 `move <offset: Position>`
    
 ### Flags
    
- `s` 
+ `-s` 
 Shifts your selection to the target location.
    
- `a` 
+ `-a` 
 Ignores air blocks.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !rotate
@@ -325,12 +323,12 @@ Rotates the contents of your clipboard.
 # !fill
 fill a hole.
    
-`fill <block: Block> <radius: Number> <depth: Number>`
+`fill <block: Block> <radius: Number> <depth: Number>`,
 `fill <block: Block> <radius: Number>`
    
 ### Flags
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !drain
@@ -340,21 +338,21 @@ Clear out a volume of water and lava.
    
 ### Flags
    
- `p` 
+ `-p` 
 Removes water plants.
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !fillr
 Fills a hole, recursively.
    
-`fillr <block: Block> <radius: Number> <depth: Number>`
+`fillr <block: Block> <radius: Number> <depth: Number>`,
 `fillr <block: Block> <radius: Number>`
    
 ### Flags
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !cancel
@@ -366,13 +364,13 @@ Cancels a number of your queued actions.
 # !tr
 Replaces blocks in your selection by type.
    
-`tr list`
-`tr list <type: String>`
+`tr list`,
+`tr list <type: String>`,
 `tr <from: Type> <to: Type>`
    
 ### Flags
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !expand
@@ -387,7 +385,7 @@ Places a wall around your selection.
    
 ### Flags
    
- `u` 
+ `-u` 
 Marks this action as unsafe by not recording an undo.
 
 # !flip
@@ -409,3 +407,5 @@ Reduces the size of your selection box.
 Move forward to the next solid block.
    
 `thru`
+   
+   
