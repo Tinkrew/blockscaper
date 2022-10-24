@@ -1,14 +1,15 @@
+![128x_blockscaper_icon](https://user-images.githubusercontent.com/37005439/197562481-5c9c0634-0215-4f1a-b73d-b1dc9c06176f.png)![Tinkrewlogox128](https://user-images.githubusercontent.com/37005439/197562798-b6fffc45-02d8-460d-bb58-5898c923912a.png)
 # Blockscaper
 
-Professional building tools for Minecraft: Bedrock
+#### Professional building tools for Minecraft: Bedrock
 
-Developed by Ian Senne + Tinkrew 
+#### Developed by Ian Senne + Tinkrew 
 
-# Getting started
+# Quick start guide
 
 ## Installation
 
-1. Download the (Blockscaper Addon)[https://directdownloadfromgithublink.com/blockscaper.mcaddon]
+1. Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/download/0.0.1/Blockscaper_Example_File.mcaddon)
 
 2. Install Blockscaper by opening the downloaded file using Minecraft
 
@@ -26,32 +27,34 @@ Developed by Ian Senne + Tinkrew
 
 1. You can run `!items` in game to get all the Blockscaper items
 
-2. If you are familiar with Java World Edit the commands should be similar otherwise you can learn more about them below
+2. All commands in Blockscaper start with just one exclamation mark `!forexample`
+
+3. If you are familiar with Java World Edit the commands should be similar otherwise you can learn more about them below
 
 # Documentation
 
-# debug
+# !debug
 No help information specified.
 
 `debug blocks`
 
-# docs-gen
+# !docs-gen
 No help information specified.
 
 `docs-gen`
 
-# items
+# !items
 Get all the Blockscaper Items!
 
 `items`
 
-# undo
+# !undo
 Undoes your past actions.
 
 `undo`
 `undo <count: Number>`
 
-# pos1
+# !pos1
 Aliases: `p1`
 
 Sets the corresponding corner of your selection box.
@@ -59,7 +62,7 @@ Sets the corresponding corner of your selection box.
 `pos1`
 `pos1 <position: Position>`
 
-# pos2
+# !pos2
 Aliases: `p2`
 
 Sets the corresponding corner of your selection box.
@@ -67,7 +70,7 @@ Sets the corresponding corner of your selection box.
 `pos2`
 `pos2 <position: Position>`
 
-# set
+# !set
 Fills your selection with a given input.
 
 `set <blocks: ExtendedBlock>`
@@ -83,14 +86,14 @@ example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# blockinfo
+# !blockinfo
 Aliases: `block`, `bi`
    
 Get information about a block, such as block states.
    
 `blockinfo <block: String>`
 
-# replace
+# !replace
 Replace blocks in your selection.
    
 `replace <from: Block> <to: Block>`
@@ -101,12 +104,12 @@ Replace blocks in your selection.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# wand
+# !wand
 Get your very own wand!
    
 `wand`
 
-# mask
+# !mask
 Applies a mask to your currently equipped brush.
    
 `mask clear`
@@ -125,7 +128,7 @@ N>blocks -> N blocks above <blocks>
    
 N<blocks -> N blocks below <blocks>
 
-# gmask
+# !gmask
 Applies a mask to everything.
    
 `gmask`
@@ -143,7 +146,7 @@ N>blocks -> N blocks above <blocks>
    
 N<blocks -> N blocks below <blocks>
 
-# br
+# !br
 Assign a brush to the currently selected item.
    
 `br sphere <material: Block> <radius: Number>`
@@ -162,17 +165,17 @@ Makes a shape hollow.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# queue
+# !queue
 Shows the command queue.
    
 `queue`
 
-# history
+# !history
 Prints your past command usage.
    
 `history`
 
-# copy
+# !copy
 Copies your selection to your clipboard.
    
 `copy`
@@ -182,7 +185,7 @@ Copies your selection to your clipboard.
  `c` 
 Sets the origin of your clipboard to the center of the region, at the region's lowest y-level.
 
-# paste
+# !paste
 Pastes the contents of your clipboard into the world.
    
 `paste`
@@ -204,14 +207,14 @@ Pastes at the origin of your clipboard.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# help
+# !help
 Get help with commands.
    
 `help`
 `help <page: Number>`
 `help <command: String>`
 
-# sphere
+# !sphere
 Makes a sphere in the world.
    
 `sphere <block: Block> <radius: Number>`
@@ -224,7 +227,7 @@ Makes a shape hollow.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# cyl
+# !cyl
 Makes a cylinder in the world.
    
 `cyl <block: Block> <radius: Number>`
@@ -238,7 +241,7 @@ Makes a shape hollow.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# pyramid
+# !pyramid
 Makes a pyramid in the world.
    
 `pyramid <block: Block> <width: Number>`
@@ -251,7 +254,7 @@ Makes a shape hollow.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# cut
+# !cut
 Cuts your selection to your clipboard, filling the selected region with air.
    
 `cut`
@@ -264,7 +267,7 @@ Sets the origin of your clipboard to the center of the region, at the region's l
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# stack
+# !stack
 Repeats your selection a number of times.
    
 `stack <count: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z->`
@@ -280,22 +283,22 @@ Ignores air blocks.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# asc
+# !asc
 Move up to the next solid block.
    
 `asc`
 
-# desc
+# !desc
 Move down to the next solid block.
    
 `desc`
 
-# up
+# !up
 Move vertically a certain number of blocks.
    
 `up <distance: Number>`
 
-# move
+# !move
 move the contents of your selection
    
 `move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z-> <replace: Block>`
@@ -314,12 +317,12 @@ Ignores air blocks.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# rotate
+# !rotate
 Rotates the contents of your clipboard.
    
 `rotate <degrees: Number>`
 
-# fill
+# !fill
 fill a hole.
    
 `fill <block: Block> <radius: Number> <depth: Number>`
@@ -330,7 +333,7 @@ fill a hole.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# drain
+# !drain
 Clear out a volume of water and lava.
    
 `drain <radius: Number>`
@@ -343,7 +346,7 @@ Removes water plants.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# fillr
+# !fillr
 Fills a hole, recursively.
    
 `fillr <block: Block> <radius: Number> <depth: Number>`
@@ -354,13 +357,13 @@ Fills a hole, recursively.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# cancel
+# !cancel
 Cancels a number of your queued actions.
    
 `cancel`
 `cancel <count: Number>`
 
-# tr
+# !tr
 Replaces blocks in your selection by type.
    
 `tr list`
@@ -372,12 +375,12 @@ Replaces blocks in your selection by type.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# expand
+# !expand
 Increases the size of your selection box.
    
 `expand <direction: up, down, north, south, east, west, all> <amount: Number>`
 
-# walls
+# !walls
 Places a wall around your selection.
    
 `walls <blocks: Block>`
@@ -387,22 +390,22 @@ Places a wall around your selection.
  `u` 
 Marks this action as unsafe by not recording an undo.
 
-# flip
+# !flip
 Flips the contents of your clipboard across an axis.
    
 `flip <axis: north, south, east, west, up, down>`
 
-# shift
+# !shift
 Moves your selection box without affecting its contents.
    
 `shift <direction: up, down, north, south, east, west, all> <amount: Number>`
 
-# contract
+# !contract
 Reduces the size of your selection box.
    
 `contract <direction: up, down, north, south, east, west, all> <amount: Number>`
 
-# thru
+# !thru
 Move forward to the next solid block.
    
 `thru`
