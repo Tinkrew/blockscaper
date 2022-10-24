@@ -1,7 +1,5 @@
 <h1 align="center">Blockscaper Add-on<br></h1>
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="100"></img>
-
 <h3 align="center">Professional building tools for Minecraft: Bedrock<br></h3>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/37005439/197584478-619d3376-0bf4-466d-b891-dfe9783450c7.png" width="320" alt="Blockscaper Tinkrew Logo"></img></p>
@@ -10,16 +8,14 @@
 
 <p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a> or suggest a feature!</p><br>
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="100"></img>
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
-<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197626218-622a2f73-81c6-4073-a25d-81a09cbbfd25.png" width="200"></a></img></p>
+<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="200"></a></img></p>
 <h6 align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</h6>
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="100"></img>
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
 <h1 align="center">Quick Start Guide<br></h1>
-
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
 ## 1. Installation
 
@@ -37,6 +33,48 @@
 -  You can run `!items` in game to get all the Blockscaper items
 -  All commands in Blockscaper start with just one exclamation mark `!forexample`
 -  If you are familiar with Java World Edit, the commands should be similar otherwise you can learn more about them below
+
+<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
+
+<h1 align="center">Index</h1>
+
+[items](https://github.com/Tinkrew/blockscaper#items)<br>
+[undo](https://github.com/Tinkrew/blockscaper#undo)<br>
+[pos1](https://github.com/Tinkrew/blockscaper#pos1)<br>
+[pos2](https://github.com/Tinkrew/blockscaper#pos2)<br>
+[set](https://github.com/Tinkrew/blockscaper#set)<br>
+[blockinfo](https://github.com/Tinkrew/blockscaper#blockinfo)<br>
+[replace](https://github.com/Tinkrew/blockscaper#replace)<br>
+[wand](https://github.com/Tinkrew/blockscaper#wand)<br>
+[mask](https://github.com/Tinkrew/blockscaper#mask)<br>
+[gmask](https://github.com/Tinkrew/blockscaper#gmask)<br>
+[br](https://github.com/Tinkrew/blockscaper#br)<br>
+[queue](https://github.com/Tinkrew/blockscaper#queue)<br>
+[history](https://github.com/Tinkrew/blockscaper#history)<br>
+[copy](https://github.com/Tinkrew/blockscaper#copy)<br>
+[paste](https://github.com/Tinkrew/blockscaper#paste)<br>
+[help](https://github.com/Tinkrew/blockscaper#help)<br>
+[sphere](https://github.com/Tinkrew/blockscaper#sphere)<br>
+[cyl](https://github.com/Tinkrew/blockscaper#cyl)<br>
+[pyramid](https://github.com/Tinkrew/blockscaper#pyramid)<br>
+[cut](https://github.com/Tinkrew/blockscaper#cut)<br>
+[stack](https://github.com/Tinkrew/blockscaper#stack)<br>
+[asc](https://github.com/Tinkrew/blockscaper#asc)<br>
+[desc](https://github.com/Tinkrew/blockscaper#desc)<br>
+[up](https://github.com/Tinkrew/blockscaper#up)<br>
+[move](https://github.com/Tinkrew/blockscaper#move)<br>
+[rotate](https://github.com/Tinkrew/blockscaper#rotate)<br>
+[fill](https://github.com/Tinkrew/blockscaper#fill)<br>
+[drain](https://github.com/Tinkrew/blockscaper#drain)<br>
+[fillr](https://github.com/Tinkrew/blockscaper#fillr)<br>
+[cancel](https://github.com/Tinkrew/blockscaper#cancel)<br>
+[tr](https://github.com/Tinkrew/blockscaper#tr)<br>
+[expand](https://github.com/Tinkrew/blockscaper#expand)<br>
+[walls](https://github.com/Tinkrew/blockscaper#walls)<br>
+[flip](https://github.com/Tinkrew/blockscaper#flip)<br>
+[shift](https://github.com/Tinkrew/blockscaper#shift)<br>
+[contract](https://github.com/Tinkrew/blockscaper#contract)<br>
+[thru](https://github.com/Tinkrew/blockscaper#thru)
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
