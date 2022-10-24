@@ -118,14 +118,12 @@ Applies a mask to your currently equipped brush.
 `mask add <mask: Mask>`,
 `mask remove <id: Number>`
    
-#### Argument Information:
-   
 #### Mask Format:
    
--  !blocks   -> is not <blocks>  
--  =blocks  -> is <blocks>
--  N>blocks -> N blocks above <blocks>  
--  N<blocks -> N blocks below <blocks>
+-  `!`blocks → everything except the specified `blocks`
+-  `=`blocks → only the specified `blocks`
+-  <i>x</i>`>`blocks → <i>x</i> blocks above the specified `blocks`  
+-  <i>x</i>`<`blocks → <i>x</i> blocks below the specified `blocks`
 
 ## !gmask
 Applies a mask to everything.
@@ -133,14 +131,12 @@ Applies a mask to everything.
 `gmask`,
 `gmask <mask: Mask>`
    
-#### Argument Information:
-   
 #### Mask Format:
    
--  !blocks   -> is not <blocks>
--  =blocks  -> is <blocks>
--  N>blocks -> N blocks above <blocks>
--  N<blocks -> N blocks below <blocks>
+-  `!`blocks → everything except the specified `blocks`
+-  `=`blocks → only the specified `blocks`
+-  <i>x</i>`>`blocks → <i>x</i> blocks above the specified `blocks`  
+-  <i>x</i>`<`blocks → <i>x</i> blocks below the specified `blocks`
 
 ## !br
 Assign a brush to the currently selected item.
@@ -295,7 +291,7 @@ Move vertically a certain number of blocks.
 `up <distance: Number>`
 
 ## !move
-move the contents of your selection
+Move the contents of your selection
    
 `move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z-> <replace: Block>`,
 
