@@ -13,7 +13,7 @@
 
 -  Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon)
 
--  Install Blockscaper by opening the downloaded file using Minecraft
+-  Install Blockscaper by opening the downloaded file using [Minecraft](https://minecraft.net/)
 
 ## 2. Adding Blockscaper to your world
 
@@ -79,7 +79,7 @@ Fills your selection with a given input.
 
 #### Argument Information:
 
-#simplex(sx, sy, sz) <entries> - sx, sy, sz are numbers representing scales on thier respective axis.
+#simplex(sx, sy, sz) <entries> - sx, sy, sz are numbers representing scales on their respective axis.
 
 -  Example: #simplex(0.1,0.1,0.1) 5%dirt,10%glass,5%granite
    
