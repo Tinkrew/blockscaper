@@ -41,49 +41,49 @@
 
 <table align="center">
    <tr>
-      <td><a href="https://github.com/Tinkrew/blockscaper#asc">asc</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#blockinfo">blockinfo</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#br">br</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#cancel">cancel</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#contract">contract</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#copy">copy</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#cut">cut</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#cyl">cyl</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#desc">desc</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#drain">drain</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#asc">!asc</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#blockinfo">!blockinfo</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#br">!br</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#cancel">!cancel</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#contract">!contract</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#copy">!copy</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#cut">!cut</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#cyl">!cyl</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#desc">!desc</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#drain">!drain</a></td>
    </tr>
    <tr>
-      <td><a href="https://github.com/Tinkrew/blockscaper#expand">expand</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#fill">fill</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#fillr">fillr</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#flip">flip</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#gmask">gmask</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#help">help</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#history">history</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#items">items</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#mask">mask</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#move">move</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#expand">!expand</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#fill">!fill</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#fillr">!fillr</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#flip">!flip</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#gmask">!gmask</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#help">!help</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#history">!history</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#items">!items</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#mask">!mask</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#move">!move</a></td>
    </tr>
    <tr>     
-      <td><a href="https://github.com/Tinkrew/blockscaper#paste">paste</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#pos1">pos1</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#pos2">pos2</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#pyramid">pyramid</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#queue">queue</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#replace">replace</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#rotate">rotate</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#set">set</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#shift">shift</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#sphere">sphere</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#paste">!paste</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#pos1">!pos1</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#pos2">!pos2</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#pyramid">!pyramid</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#queue">!queue</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#replace">!replace</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#rotate">!rotate</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#set">!set</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#shift">!shift</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#sphere">!sphere</a></td>
    </tr>
    <tr>
-      <td><a href="https://github.com/Tinkrew/blockscaper#stack">stack</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#thru">thru</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#tr">tr</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#undo">undo</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#up">up</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#walls">walls</a></td>
-      <td><a href="https://github.com/Tinkrew/blockscaper#wand">wand</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#stack">!stack</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#thru">!thru</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#tr">!tr</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#undo">!undo</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#up">!up</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#walls">!walls</a></td>
+      <td><a href="https://github.com/Tinkrew/blockscaper#wand">!wand</a></td>
       <td></td>
       <td></td>
       <td></td>
