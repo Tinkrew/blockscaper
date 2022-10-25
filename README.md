@@ -16,7 +16,8 @@
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
-<h1 align="center">Quick Start Guide<br></h1>
+<details>
+   <summary><h1>Quick Start Guide</h1></summary>
 
 <h3>1. Installation</h3>
 
@@ -36,8 +37,10 @@
 -  If you are familiar with Java World Edit, the commands should be similar otherwise you can learn more about them below
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
+</details>
 
-<h1 align="center">Index</h1>
+<details>
+   <summary><h1>Command Index</h1></summary>
 
 <table align="center">
    <tr>
@@ -91,8 +94,11 @@
 </table>
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
+</details>
 
-<h1 align="center">Command Library</h1>
+<details>
+   <summary><h1>Command Library</h1></summary>
+   
 <p align="center">Documentation updated Oct 24, 2022</p>
 
 ## !asc
