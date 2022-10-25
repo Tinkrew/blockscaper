@@ -9,12 +9,18 @@
 
 <p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a> or suggest a feature!</p><br>
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
+<p><br>
+   <br>
+   <br>
+   <br></p>
 
 <p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
 <p align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</p4>
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
+<p><br>
+   <br>
+   <br>
+   <br></p>
 
 <h1>Quick Start Guide</h1>
 
@@ -34,6 +40,11 @@
 -  You can run `!items` in game to get all the Blockscaper items
 -  All commands in Blockscaper start with just one exclamation mark `!forexample`
 -  If you are familiar with Java World Edit, the commands should be similar otherwise you can learn more about them below
+
+<p><br>
+   <br>
+   <br>
+   <br></p>
 
 <h1>Index</h1>
 
@@ -82,10 +93,18 @@
       <td><a href="https://github.com/Tinkrew/blockscaper#up">!up</a></td>
       <td><a href="https://github.com/Tinkrew/blockscaper#walls">!walls</a></td>
       <td><a href="https://github.com/Tinkrew/blockscaper#wand">!wand</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
    </tr>
 </table>
 
-<h1>Documentation</h1>
+<p><br>
+   <br>
+   <br>
+   <br></p>
+
+<h1 align="left">Documentation</h1>
 <p align="left">Documentation updated Oct 24, 2022</p>
 
 ## !asc
