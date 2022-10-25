@@ -16,8 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
 
-<details>
-   <summary><h1>Quick Start Guide</h1></summary>
+<h1>Quick Start Guide</h1>
 
 <h3>1. Installation</h3>
 
@@ -36,13 +35,9 @@
 -  All commands in Blockscaper start with just one exclamation mark `!forexample`
 -  If you are familiar with Java World Edit, the commands should be similar otherwise you can learn more about them below
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
-</details>
+<h1>Index</h1>
 
-<details>
-   <summary><h1>Command Index</h1></summary>
-
-<table align="center">
+<table align="left">
    <tr>
       <td><a href="https://github.com/Tinkrew/blockscaper#asc">!asc</a></td>
       <td><a href="https://github.com/Tinkrew/blockscaper#blockinfo">!blockinfo</a></td>
@@ -87,19 +82,11 @@
       <td><a href="https://github.com/Tinkrew/blockscaper#up">!up</a></td>
       <td><a href="https://github.com/Tinkrew/blockscaper#walls">!walls</a></td>
       <td><a href="https://github.com/Tinkrew/blockscaper#wand">!wand</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
    </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/37005439/197627238-62ca0c7c-9fb6-4bef-b485-c4d25f022b01.png" width="50"></img>
-</details>
-
-<details>
-   <summary><h1>Command Library</h1></summary>
-   
-<p align="center">Documentation updated Oct 24, 2022</p>
+<h1>Documentation</h1>
+<p align="left">Documentation updated Oct 24, 2022</p>
 
 ## !asc
 Move up to the next solid block.
