@@ -7,7 +7,7 @@
 
 <p align="center">Developed by Ian Senne for Tinkrew</p>
 
-<p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues/new">Bug Tracker</a> or suggest a feature!</p><br>
+<p align="center">Report a bug on the <img src="https://user-images.githubusercontent.com/37005439/197584800-59e5483e-fcdf-4641-9e79-28549b469047.png" width="16" alt="Bug Tracker Icon"></img> <a href="https://github.com/Tinkrew/blockscaper/issues">Bug Tracker</a> or suggest a feature!</p><br>
 
 <p><br>
    <br>
@@ -15,7 +15,7 @@
    <br></p>
 
 <p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
-<p align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</p4>
+<p align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</p>
 
 <p><br>
    <br>
@@ -48,7 +48,7 @@
 
 <h1>Index</h1>
 
-<table align="left">
+<table align="center">
    <tr>
       <td><a href="https://github.com/Tinkrew/blockscaper#asc">!asc</a></td>
       <td><a href="https://github.com/Tinkrew/blockscaper#blockinfo">!blockinfo</a></td>
@@ -104,8 +104,8 @@
    <br>
    <br></p>
 
-<h1 align="left">Documentation</h1>
-<p align="left">Documentation updated Oct 24, 2022</p>
+<h1>Documentation</h1>
+<p>Last updated Oct 24, 2022</p>
 
 ## !asc
 Move up to the next solid block.
@@ -121,8 +121,10 @@ Move up to the next solid block.
 Assign a brush to the currently selected item.
    
 `br sphere <material: Block> <radius: Number>`, `br cube <material: Block> <size: Number>`, `br cyl <material: Block> <radius: Number> <height: Number>`, `br paste`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-a` Ignores air blocks.<br>`-h` Makes a shape hollow.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !cancel
 Cancels a number of your queued actions.
@@ -138,22 +140,28 @@ Reduces the size of your selection box.
 Copies your selection to your clipboard.
    
 `copy`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-c` Sets the origin of your clipboard to the center of the region, at the region's lowest y-level.
+</details>
 
 ## !cut
 Cuts your selection to your clipboard, filling the selected region with air.
    
 `cut`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-c` Sets the origin of your clipboard to the center of the region, at the region's lowest y-level.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !cyl
 Makes a cylinder in the world.
    
 `cyl <block: Block> <radius: Number>`, `cyl <block: Block> <radius: Number> <height: Number>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-h` Makes a shape hollow.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !desc
 Move down to the next solid block.
@@ -164,8 +172,10 @@ Move down to the next solid block.
 Clear out a volume of water and lava.
    
 `drain <radius: Number>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-p` Removes water plants.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !expand
 Increases the size of your selection box.
@@ -176,15 +186,19 @@ Increases the size of your selection box.
 Fill a hole.
    
 `fill <block: Block> <radius: Number> <depth: Number>`, `fill <block: Block> <radius: Number>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !fillr
 Fills a hole, recursively.
    
 `fillr <block: Block> <radius: Number> <depth: Number>`, `fillr <block: Block> <radius: Number>` 
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !flip
 Flips the contents of your clipboard across an axis.
@@ -195,8 +209,10 @@ Flips the contents of your clipboard across an axis.
 Applies a mask to everything.
    
 `gmask`, `gmask <mask: Mask>`
-#### Mask Format:
+<details><summary><h4>Mask Format:</h4></summary>
+
 `!`blocks → everything except the specified `blocks`<br>`=`blocks → only the specified `blocks`<br><i>x</i>`>`blocks → <i>x</i> blocks above the specified `blocks`<br><i>x</i>`<`blocks → <i>x</i> blocks below the specified `blocks`
+</details>
 
 ## !help
 Get help with commands.
@@ -217,22 +233,28 @@ Get all the Blockscaper items!
 Applies a mask to your currently equipped brush.
    
 `mask clear`, `mask add <mask: Mask>`, `mask remove <id: Number>`
-#### Mask Format:
+<details><summary><h4>Mask Format:</h4></summary>
+
 `!`blocks → everything except the specified `blocks`<br>`=`blocks → only the specified `blocks`<br><i>x</i>`>`blocks → <i>x</i> blocks above the specified `blocks`<br><i>x</i>`<`blocks → <i>x</i> blocks below the specified `blocks`
+</details>
 
 ## !move
 Move the contents of your selection.
    
 `move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z-> <replace: Block>`, `move <distance: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z->`, `move <offset: Position> <replace: Block>`, `move <offset: Position>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-s` Shifts your selection to the target location.<br>`-a` Ignores air blocks.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !paste
 Pastes the contents of your clipboard into the world.
    
 `paste`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-a` Ignores air blocks.<br>`-s` Selects the region after pasting.<br>`-n` Similar to the "-s" flag, but does not paste the clipboard's contents.<br>`-o` Pastes at the origin of your clipboard.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !pos1
 <i>Aliases:</i> `p1`<br>Sets the corresponding corner of your selection box.
@@ -248,8 +270,10 @@ Pastes the contents of your clipboard into the world.
 Makes a pyramid in the world.
    
 `pyramid <block: Block> <width: Number>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-h` Makes a shape hollow.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !queue
 Shows the command queue.
@@ -260,8 +284,10 @@ Shows the command queue.
 Replace blocks in your selection.
    
 `replace <from: Block> <to: Block>`, `replace <to: Block>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !rotate
 Rotates the contents of your clipboard.
@@ -272,14 +298,20 @@ Rotates the contents of your clipboard.
 Fills your selection with a given input.
 
 `set <blocks: ExtendedBlock>`
-#### Simplex Implementation:
+<details><summary><h4>Simplex Implementation:</h4></summary>
+
 💡 `set #simplex(dx,dy,dz) <to: Block>`<br>Simplex patterns are enabled in this command. Create 3D noise with custom scaling and weights.
 
 `(dx,dy,dz)` → three dimensional scaling, there are no numerical limits but values typically range from 0 to 1<br><i>Example: (0.5,0.1,0.1)</i>
 
 `<to: Block>` → the pattern used in the simplex, you can use percentages to weight values.<br><i>Examples: 5%dirt,10%glass,5%granite</i>
-#### Flags:
+</details>
+
+<details>
+<summary><h4>Flags:</h4></summary>
+
 `-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !shift
 Moves your selection box without affecting its contents.
@@ -290,15 +322,19 @@ Moves your selection box without affecting its contents.
 Makes a sphere in the world.
    
 `sphere <block: Block> <radius: Number>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-h` Makes a shape hollow.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !stack
 Repeats your selection a number of times.
    
 `stack <count: Number> <direction: north, south, east, west, up, down, x+, x-, y+, y-, z+, z->`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-s` Shifts the selection to the last stacked copy.<br>`-a` Ignores air blocks.<br>`-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !thru
 Move forward to the next solid block.
@@ -309,9 +345,11 @@ Move forward to the next solid block.
 Replaces blocks in your selection by type.
    
 `tr list`, `tr list <type: String>`, `tr <from: Type> <to: Type>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-u` Marks this action as unsafe by not recording an undo.
-   
+</details>
+
 ## !undo
 Undoes your past actions.
 
@@ -326,8 +364,10 @@ Move vertically a certain number of blocks.
 Places a wall around your selection.
    
 `walls <blocks: Block>`
-#### Flags:
+<details><summary><h4>Flags:</h4></summary>
+
 `-u` Marks this action as unsafe by not recording an undo.
+</details>
 
 ## !wand
 Get your very own wand!
