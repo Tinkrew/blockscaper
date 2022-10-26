@@ -3,7 +3,12 @@
 <h3 align="center">Professional building tools for Minecraft: Bedrock</h3>
 <p align="center">One add-on. Any device. Multiplayer and singleplayer.<br>Production ready (with caution). Compatible with custom blocks.<br>And completely free.</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/37005439/197636783-97724f70-8f63-4c19-aefb-ce59d149a6b3.png" width="640" alt="Blockscaper Tinkrew Logo"></img></p>
+<div align="center">
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/37005439/197930475-5b00bc4e-7e5d-4923-818e-ecb0f365e610.png" width="640">
+   <img alt="Blockscaper Tinkrew Logo" src="https://user-images.githubusercontent.com/37005439/197636783-97724f70-8f63-4c19-aefb-ce59d149a6b3.png" width="640">
+</picture>
+</div>
 
 <p align="center">Developed by Ian Senne for Tinkrew</p>
 
