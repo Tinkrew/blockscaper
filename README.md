@@ -1,7 +1,7 @@
 <h1 align="center">Blockscaper Add-on</h1>
 
 <h3 align="center">Professional building tools for Minecraft: Bedrock</h3>
-<p align="center">One add-on. Any device. Multiplayer and singleplayer.<br>Production ready (with caution). Compatible with custom blocks.<br>And completely free.</p>
+<p align="center">One add-on. Any device. Multiplayer and singleplayer.<br>Alpha build (use with caution). Compatible with custom blocks.<br>And completely free.</p>
 
 <div align="center">
 <picture>
