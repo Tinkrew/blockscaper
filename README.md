@@ -19,7 +19,7 @@
    <br>
    <br></p>
 
-<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/download/alpha-0.0.19/Blockscaper-0.0.19.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
+<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
 <p align="center">Latest release Dec 8, 2022<br>Blockscaper v0.0.19 for Minecraft Bedrock v1.19.50</p>
 
 <p><br>
@@ -31,7 +31,7 @@
 
 <h3>1. Installation</h3>
 
--  Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon)
+-  Download the ![downloadicon](https://user-images.githubusercontent.com/37005439/197565238-ca154dac-2a71-4742-9e47-77b8a28d01b9.png) [Blockscaper Add-on](https://github.com/Tinkrew/blockscaper/releases)
 -  Install Blockscaper by opening the downloaded file using [Minecraft](https://minecraft.net/)
 
 <h3>2. Adding Blockscaper to your world</h3>
