@@ -19,8 +19,8 @@
    <br>
    <br></p>
 
-<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/latest/download/Blockscaper_Example_File.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
-<p align="center">Latest release Oct 24, 2022<br>Blockscaper v1.0.0 for Minecraft Bedrock v1.19.31</p>
+<p align="center"><a href="https://github.com/Tinkrew/blockscaper/releases/download/alpha-0.0.19/Blockscaper-0.0.19.mcaddon"><img src="https://user-images.githubusercontent.com/37005439/197631531-049c96b3-2f76-44a2-a5d5-60e7548f2a19.png" width="320"></a></img></p>
+<p align="center">Latest release Dec 8, 2022<br>Blockscaper v0.0.19 for Minecraft Bedrock v1.19.50</p>
 
 <p><br>
    <br>
