@@ -36,7 +36,7 @@
 
 <h3>2. Adding Blockscaper to your world</h3>
 
--  Enable the `GameTest Framework` experimental feature <br>   <i>Note: this may make a copy of your world if you have not enabled experimental features before</i>
+-  Enable the `Beta APIs` experimental feature <br>   <i>Note: this may make a copy of your world if you have not enabled experimental features before</i>
 -  Activate the Blockscaper behavior pack
 -  Opening the world should now greet you with a message letting you know Blockscaper is enabled
 
